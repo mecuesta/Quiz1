@@ -55,13 +55,15 @@ public class quarterback_rating {
 		}
 		// Final Calculation for rating
 		double rating = (((a + b + c + d)/6) * 100);
+		
 		// Display the Rating for the user
 		
 		System.out.print("\n");
-		// in the next line, I could'nt get the formatting to one digit
-		System.out.print("The Player's Rating is: " + rating + "percent");
+		System.out.print("The Player's Rating is: ");
+		System.out.printf("$%,.2f", rating);
+		System.out.println(" percent");
 		
-		//System.out.print("The Player's Rating is: " + rating + " percent");
+		
 		
 
 	}
