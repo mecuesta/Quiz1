@@ -60,7 +60,7 @@ public class quarterback_rating {
 		
 		System.out.print("\n");
 		System.out.print("The Player's Rating is: ");
-		System.out.printf("$%,.2f", rating);
+		System.out.printf("%,.2f", rating);
 		System.out.println(" percent");
 		
 		
